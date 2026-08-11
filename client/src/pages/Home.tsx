@@ -17,7 +17,7 @@ const playlists: Playlist[] = [
     artist: "Midnight Run Curated Set",
     videoId: "x8yP68UgT9c",
     sourceUrl: "https://youtu.be/x8yP68UgT9c?si=g7k5bak221hHnYAO",
-    art: "/manus-storage/route-cab_93e6ddd3.jpg",
+    art: "/background.png",
   },
   {
     id: "2",
@@ -25,7 +25,7 @@ const playlists: Playlist[] = [
     artist: "Rest Stop Late-Night Session",
     videoId: "_J0-YKRHuEg",
     sourceUrl: "https://youtu.be/_J0-YKRHuEg?si=kgCjyoyS_R6IaAdy",
-    art: "/manus-storage/route-diner_b85bfb89.jpg",
+    art: "/background.png",
   },
   {
     id: "3",
@@ -33,7 +33,7 @@ const playlists: Playlist[] = [
     artist: "Sunrise Shift Horizon Mix",
     videoId: "HUZhV8EFrNU",
     sourceUrl: "https://youtu.be/HUZhV8EFrNU?si=Wpz4lqssXuK1KeKa",
-    art: "/manus-storage/truck-radio-hero_50534794.jpg",
+    art: "/background.png",
   },
 ];
 
@@ -70,13 +70,13 @@ export default function Home() {
   return (
     <main className="saloon-container">
       <div className="saloon-bg">
-        <img src="/manus-storage/truck-radio-hero_50534794.jpg" alt="Truck driver highway background" />
+        <img src="/background.png" alt="Highway truck drive background" />
         <div className="saloon-vignette" />
       </div>
 
       <header className="saloon-topbar">
         <div className="top-time">{timeStr}</div>
-        <div className="top-online"><span className="online-dot" /><span>32 online</span></div>
+        <div className="top-online"><span className="online-dot" /><span>48 online</span></div>
         <div className="top-links">
           <a href="https://open.spotify.com" target="_blank" rel="noopener noreferrer" className="external-pill">Spotify</a>
           <a href="https://music.youtube.com" target="_blank" rel="noopener noreferrer" className="external-pill">YT Music</a>
@@ -84,8 +84,8 @@ export default function Home() {
       </header>
 
       <div className="saloon-hero-title">
-        <h1 className="hindi-title">ट्रक स्टॉप</h1>
-        <h2 className="sub-hindi-title">रेडियो सैलून</h2>
+        <h1 className="hindi-title">ट्रक वाला</h1>
+        <h2 className="sub-hindi-title">हाईवे रेडियो • हॉर्न ओके प्लीज</h2>
       </div>
 
       <div className="saloon-player-dock">

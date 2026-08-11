@@ -133,22 +133,24 @@ html, body {
 }
 
 .hindi-title {
-  font-family: "Bebas Neue", sans-serif;
-  font-size: clamp(64px, 9vw, 130px);
-  line-height: 0.9;
-  letter-spacing: 0.05em;
-  color: #ffffff;
+  font-family: "Yatra One", "Teko", cursive, sans-serif;
+  font-size: clamp(60px, 9.5vw, 130px);
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: #ffd700;
   margin: 0;
   font-weight: 700;
+  text-shadow: 0 6px 30px rgba(0, 0, 0, 0.95), 0 0 25px rgba(220, 38, 38, 0.7);
 }
 
 .sub-hindi-title {
-  font-family: "Bebas Neue", sans-serif;
-  font-size: clamp(32px, 5vw, 64px);
-  letter-spacing: 0.1em;
-  color: var(--accent);
-  margin: 10px 0 0 0;
+  font-family: "Teko", sans-serif;
+  font-size: clamp(28px, 4.5vw, 56px);
+  letter-spacing: 0.08em;
+  color: #ffffff;
+  margin: 4px 0 0 0;
   opacity: 0.95;
+  text-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);
 }
 
 .saloon-player-dock {
